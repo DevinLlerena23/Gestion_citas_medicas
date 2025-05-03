@@ -16,8 +16,8 @@
 ### 1. Clonar el repositorio
 
 ```bash
-git clone https://github.com/tuusuario/citas-medicas.git
-cd citas-medicas
+git clone https://github.com/DevinLlerena23/Gestion_citas_medicas.git
+cd Gestion_citas_medicas
 ```
 ### 2. Instalar todas las dependencias (raíz, frontend y backend) osea en Gestion_citas_medicas
 ```bash
