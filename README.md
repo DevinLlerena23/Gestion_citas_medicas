@@ -20,22 +20,34 @@
 git clone https://github.com/tuusuario/citas-medicas.git
 cd citas-medicas
 ```
-### 2. Instalar dependencias del backend
+### 2. Instalar todas las dependencias (raíz, frontend y backend) osea en Gestion_citas_medicas
 ```bash
-cd server
-npm install
+npm run setup
 ```
-## 3. Instalar dependencias del frontend
-``` bash
-cd medical-appointments-frontend
-npm install
-```
-## 4. Para iniciar el frontend como el backen de forma individual desde su raiz
-``` bash
+Este comando instalará automáticamente:
+
+Las dependencias del proyecto raíz 
+
+Las dependencias del backend (`Backend/`)
+
+Las dependencias del frontend (`medical-appointments-frontend/`)
+
+### 3. Iniciar la aplicación (frontend + backend)
+Desde la raíz del proyecto:
+```bash
 npm run dev
 ```
-## 5. Para iniciar el frontend como el backen al mismo tiempo desde la carpeta Gestion_citas_medicas
+
+🔧 Iniciar cada parte individualmente (opcional)
+
+Si prefieres iniciar por separado:
+```bash
+cd Backend
+npm run dev
+```
+
 ``` bash
+cd medical-appointments-frontend
 npm run dev
 ```
 
