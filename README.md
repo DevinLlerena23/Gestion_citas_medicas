@@ -1,10 +1,9 @@
 # 🏥 Sistema de Gestión de Citas Médicas
 ## 🚀 Funcionalidades
 
-- Crear, listar, editar y eliminar citas médicas.
+- Crear, listar, y eliminar citas médicas.
 - Cambiar el estado de una cita: `pendiente`, `confirmada`, `cancelada`.
 - Visualizar detalles completos de cada cita.
-- Validaciones en formulario y backend.
 - Interfaz responsiva con diseño limpio.
 - Persistencia de datos con SQLite.
   ## ⚙️ Requisitos
