@@ -30,11 +30,11 @@ npm install
 cd medical-appointments-frontend
 npm install
 ```
-## 4. Para iniciar el frontend como el backen desde su carpeta raiz de forma individual
+## 4. Para iniciar el frontend como el backen de forma individual desde su raiz
 ``` bash
 npm run dev
 ```
-## 5. Para iniciar el frontend como el backen al mismo tiempo desde la carpeta principal que contiene al backend como el fronted
+## 5. Para iniciar el frontend como el backen al mismo tiempo desde la carpeta Gestion_citas_medicas
 ``` bash
 npm run dev
 ```
