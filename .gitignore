@@ -1,0 +1,11 @@
+# Ignorar dependencias
+**/node_modules/
+# Ignorar carpetas de salida de compilación (backend)
+**/dist/
+# Ignorar bases de datos locales SQLite
+**/*.db
+# Ignorar archivos de entorno
+**/.env
+# Ignorar otros archivos del sistema
+.DS_Store
+Thumbs.db

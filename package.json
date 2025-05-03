@@ -1,0 +1,26 @@
+{
+  "name": "gestion_citas_medicas",
+  "version": "1.0.0",
+  "private": true,
+  "description": "- Crear, listar, editar y eliminar citas médicas.\r - Cambiar el estado de una cita: `pendiente`, `confirmada`, `cancelada`.\r - Visualizar detalles completos de cada cita.\r - Validaciones en formulario y backend.\r - Interfaz responsiva con diseño limpio.\r - Persistencia de datos con SQLite.\r   ## ⚙️ Requisitos",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run dev --prefix medical-appointments-frontend\" \"npm run dev --prefix Backend\""
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevinLlerena23/Gestion_citas_medicas.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  
+  "bugs": {
+    "url": "https://github.com/DevinLlerena23/Gestion_citas_medicas/issues"
+  },
+  "homepage": "https://github.com/DevinLlerena23/Gestion_citas_medicas#readme",
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
